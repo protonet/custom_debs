@@ -1,0 +1,14 @@
+ar -x rabbitmq-server_2.6.0-1_all.custom.deb
+tar xvzf control.tar.gz 
+= output
+x ./
+x ./prerm
+x ./control
+x ./postinst
+x ./postrm
+x ./md5sums
+x ./conffiles
+
+change your stuff
+
+and pack ar -r foo.deb file
